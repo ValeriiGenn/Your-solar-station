@@ -7,12 +7,34 @@
       text-align: center;
       padding: 0;
        }
-  /*&__image {
+  /*&__image{
     position: absolute;
-    left: 25px;
-  }*/
-  /*&__title {
+    left: 25px;}*/
+  &__img{ margin: auto;
+  padding-top: 20px;
+padding-bottom: 20px;}
+  &__title {
+    font-weight: bold;
+      font-size: 20px;
+      line-height: 16px;
+      text-align: center;
+      text-transform: uppercase;
     justify-items: center;
-    margin-bottom: 20px;
-  }*/
+    margin-bottom: 40px; 
+  }
+  &__text{
+    font-family: "Jost", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 23px;
+      letter-spacing: 0.04em;
+      background-color: var(--white-color);
+      color: var(--black-color);
+      &-span{
+    font-style: italic;
+  }
+  }
+  
+    
  }

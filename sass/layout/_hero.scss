@@ -9,7 +9,7 @@
   }
   
     &__overlay {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
    
   background-image: url(../images/mob/panelhoum.png);
       
@@ -26,7 +26,7 @@
         left: 10px;
         background-image: url(../images/mob/sun1.jpg);
         background-repeat: no-repeat;
-        opacity: 0.5;
+        opacity: 0.8;
        animation: animateX25 30000ms infinite 5000ms;
         @keyframes animateX25 {
                               0% {
@@ -89,7 +89,7 @@
     line-height: 43px;
     text-align: center;
     text-transform: uppercase;
-    -webkit-text-stroke: 1px var(--h1-color);
+    -webkit-text-stroke: 1px var(--yellou-color);
     -webkit-text-fill-color: transparent;
     text-shadow: 0 -16px 0 var(--shadtitle-color);
     margin-bottom: 13px;
@@ -99,7 +99,7 @@
       font-size: 16px;
       line-height: 116%;
       text-align: center;
-      color: var(--white-color);
+      color: var(--yellou-color);
       margin-bottom: 39px;
     }
   }

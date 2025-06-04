@@ -40,7 +40,7 @@ body {
   --bgfoo1-color: #8cc4e7;
   --ttrev-color: #002d53;
   --brdr-color: #7538ff;
-  --yellou-color: #fdc812;
+  --yellou-color: #edfd12;
   --sgntr-color: #ea557b;
   --span-color: #260e4d;
   --name-color: #fa3465;
@@ -220,6 +220,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 .header__honors {
   display: flex;
@@ -327,7 +329,7 @@ body {
   color: red;
 }
 .hero__overlay {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   background-image: url(../images/mob/panelhoum.png);
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -340,7 +342,7 @@ body {
   left: 10px;
   background-image: url(../images/mob/sun1.jpg);
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.8;
   animation: animateX25 30000ms infinite 5000ms;
 }
 @keyframes animateX25 {
@@ -398,7 +400,7 @@ body {
   line-height: 43px;
   text-align: center;
   text-transform: uppercase;
-  -webkit-text-stroke: 1px var(--h1-color);
+  -webkit-text-stroke: 1px var(--yellou-color);
   -webkit-text-fill-color: transparent;
   text-shadow: 0 -16px 0 var(--shadtitle-color);
   margin-bottom: 13px;
@@ -408,7 +410,7 @@ body {
   font-size: 16px;
   line-height: 116%;
   text-align: center;
-  color: var(--white-color);
+  color: var(--yellou-color);
   margin-bottom: 39px;
 }
 .hero__slogan {
@@ -817,18 +819,25 @@ body {
   padding-top: 63px;
   padding-bottom: 82px;
   width: 375px;
-  /*&__image {
+  /*&__image{
     position: absolute;
-    left: 25px;
-  }*/
-  /*&__title {
-    justify-items: center;
-    margin-bottom: 20px;
-  }*/
+    left: 25px;}*/
 }
 .equipment__container {
   text-align: center;
   padding: 0;
+}
+.equipment__img {
+  margin: auto;
+}
+.equipment__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  justify-items: center;
+  margin-bottom: 40px;
 }
 
 /*@import "./layout/course";
