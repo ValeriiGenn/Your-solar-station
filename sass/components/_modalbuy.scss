@@ -1,6 +1,6 @@
 /* The Modal (background) */
 
-.modalbuy {
+//.modalbuy {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -26,7 +26,7 @@
 
 /* Modal Content */
 
-.modalbuy-content {
+//.modalbuy-content {
     position: relative;
     z-index: 13;
     overflow-y: auto;
@@ -42,7 +42,7 @@
 
 /* The Close Button */
 
-.close {
+//.close {
     //position: fixed;
     color: #aaaaaa;
     //float: right;
@@ -51,14 +51,14 @@
     //z-index: 13;
 }
 
-.close:hover,
-.close:focus {
+//.close:hover,
+//.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
 
-.row {
+//.row {
     display: -ms-flexbox;
     /* IE10 */
     display: flex;
@@ -68,38 +68,38 @@
     margin: 0 -16px;
 }
 
-.col-25 {
+//.col-25 {
     -ms-flex: 25%;
     /* IE10 */
     flex: 25%;
 }
 
-.col-50 {
+//.col-50 {
     -ms-flex: 50%;
     /* IE10 */
     flex: 50%;
 }
 
-.col-75 {
+//.col-75 {
     -ms-flex: 75%;
     /* IE10 */
     flex: 75%;
 }
 
-.col-25,
-.col-50,
-.col-75 {
+//.col-25,
+//.col-50,
+//.col-75 {
     padding: 0 16px;
 }
 
-.wrapper {
+//.wrapper {
     background-color: #ffb8ca;
     padding: 0 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
 }
 
-input[type="text"] {
+//input[type="text"] {
     width: 100%;
     margin-bottom: 5px;
     padding: 2px;
@@ -107,18 +107,18 @@ input[type="text"] {
     border-radius: 3px;
 }
 
-label {
+//label {
     margin-bottom: 5px;
     display: block;
 }
 
-.icon-container {
+//.icon-container {
     margin-bottom: 10px;
     padding: 5px 0;
     font-size: 12px;
 }
 
-.btn {
+//.btn {
     position: relative;
     left: 85px;
     background-color: #cf5271;
@@ -131,7 +131,7 @@ label {
     font-size: 12px;
 }
 
-.btn:hover {
+//.btn:hover {
     background-color: #d10c3d;
 }
 
@@ -139,11 +139,11 @@ label {
     color: #2196f3;
 }*/
 
-hr {
+//hr {
     border: 1px solid lightgrey;
 }
 
-span.price {
+//span.price {
     float: right;
     color: grey;
 }
@@ -151,7 +151,7 @@ span.price {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
 
-@media (max-width: 800px) {
+//@media (max-width: 800px) {
     .row {
         flex-direction: column-reverse;
     }
