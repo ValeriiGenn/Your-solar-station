@@ -511,9 +511,308 @@ body {
 }
 
 /*@import "./layout/about";
-@import "./layout/advantages";
-@import "./layout/continuation";
-@import "./layout/biography";*/
+@import "./layout/advantages";*/
+.contacts {
+  width: 100%;
+  height: 100%;
+  padding-top: 85px;
+  padding-bottom: 113px;
+  background-image: linear-gradient(180deg, #ffffff 10%, #fff5f6 10%, #fff5f6 90%);
+}
+@media screen and (min-width: 768px) {
+  .contacts {
+    background-image: linear-gradient(180deg, #ffffff 18%, #fff5f6 18%, #fff5f6 82%);
+    padding-bottom: 158px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts {
+    background-image: url(../images/compr1280/contcbg-min.png), linear-gradient(180deg, #ffffff 18%, #fff5f6 18%, #fff5f6 82%);
+    padding-bottom: 165px;
+    background-position: 60px 180px, top;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contacts__list {
+    display: flex;
+  }
+}
+.contacts__list--item {
+  padding: 41px 21px 42px 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 220px;
+  background-color: var(--white-color);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+}
+.contacts__list--item:not(:last-child) {
+  margin-bottom: 21px;
+}
+@media screen and (min-width: 768px) {
+  .contacts__list--item:not(:last-child) {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__list--item:not(:last-child) {
+    margin-right: 31px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contacts__list--item {
+    width: 220px;
+    padding: 50px 31px 50px 31px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__list--item {
+    width: 330px;
+    padding: 59px 44px 62px 36px;
+  }
+}
+.contacts__list--item-cafe {
+  width: 80px;
+  height: 22px;
+  background: var(--bgcf-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+}
+.contacts__item--food {
+  width: 130px;
+  height: 16px;
+  background: var(--bgfd-color);
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 186%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+}
+@media screen and (min-width: 768px) {
+  .contacts__item--food {
+    height: 22px;
+  }
+}
+.contacts__city--name {
+  margin-bottom: 10px;
+  min-width: 57px;
+  height: 22px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+  color: var(--black-color);
+}
+@media screen and (min-width: 768px) {
+  .contacts__city--name {
+    margin-top: 30px;
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__city--name {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+}
+.contacts__city--description {
+  margin-bottom: 25px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--abtxt-color);
+}
+@media screen and (min-width: 768px) {
+  .contacts__city--description {
+    margin-bottom: 32px;
+    width: 160px;
+    font-size: 14px;
+    line-height: 166%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__city--description {
+    margin-bottom: 32px;
+    width: 260px;
+    font-size: 16px;
+    line-height: 183%;
+  }
+}
+.contacts__timetable {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 1px solid var(--brdr-color);
+  border-bottom: 1px solid var(--brdr-color);
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .contacts__timetable {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .contacts__timetable--work:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__timetable {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 31px;
+  }
+  .contacts__timetable--work:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+.contacts__timetable--work-day {
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  color: var(--black-color);
+}
+@media screen and (min-width: 768px) {
+  .contacts__timetable--work-day {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__timetable--work-day {
+    font-size: 16px;
+  }
+}
+.contacts__timetable--work-time {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  color: var(--abttl-color);
+}
+@media screen and (min-width: 768px) {
+  .contacts__timetable--work-time {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__timetable--work-time {
+    font-size: 16px;
+  }
+}
+.contacts__contact {
+  color: var(--abtxt-color);
+}
+.contacts__contact--link {
+  margin-top: 25px;
+  margin-bottom: 42px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--abtxt-color);
+}
+@media screen and (min-width: 768px) {
+  .contacts__contact--link {
+    font-size: 14px;
+    line-height: 183%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contacts__contact--link {
+    font-size: 16px;
+    line-height: 183%;
+  }
+}
+.contacts__filter {
+  margin-top: 54px;
+}
+@media screen and (min-width: 768px) {
+  .contacts__filter {
+    display: flex;
+    margin-top: 81px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__filter {
+    margin-top: 86px;
+  }
+}
+.contacts__link {
+  height: 44px;
+  width: 180px;
+  border-radius: 22px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.313;
+}
+.contacts__btn--locations {
+  display: flex;
+  padding: 12px 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--bgbtn-color);
+  border: none;
+}
+.contacts__btn--locicon {
+  margin-left: 11px;
+  display: inline-block;
+  width: 7px;
+  height: 10px;
+  margin-bottom: -1px;
+}
+.contacts__btn--franchise {
+  display: flex;
+  padding: 9px 32px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--abprvw-color);
+  background-color: var(--white-color);
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .contacts__btn--franchise {
+    margin: 0 0 0 15px;
+  }
+}
+.contacts__btn--fricon {
+  margin-left: 13px;
+  display: inline-block;
+  width: 7px;
+  height: 10px;
+  margin-bottom: -1px;
+}
+
+/*@import "./layout/biography";*/
 .equipment {
   padding-top: 63px;
   padding-bottom: 82px;
