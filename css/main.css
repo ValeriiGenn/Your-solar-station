@@ -604,7 +604,7 @@ body {
   height: 100%;
   padding-top: 85px;
   padding-bottom: 113px;
-  background-image: url(/images/mob/sunflowers.jpg);
+  background-image: url(./images/mob/sunflowers.jpg);
   text-align: center;
 }
 @media screen and (min-width: 768px) {
