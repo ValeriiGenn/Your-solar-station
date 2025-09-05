@@ -623,9 +623,8 @@ body {
   }
 }
 .contacts__title {
-  width: 130px;
   height: 16px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 186%;
   display: flex;
   align-items: center;
@@ -699,7 +698,7 @@ body {
   height: 22px;
   margin-top: 20px;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 186%;
   letter-spacing: 0.04em;
   color: var(--white-color);
