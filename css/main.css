@@ -602,6 +602,7 @@ body {
   padding-top: 85px;
   padding-bottom: 113px;
   background-image: linear-gradient(180deg, #ffffff 10%, #fff5f6 10%, #fff5f6 90%);
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
   .contacts {
@@ -952,8 +953,8 @@ body {
   cursor: pointer;
   position: fixed;
   display: none;
-  bottom: 15px;
-  right: 80px;
+  bottom: 45px;
+  right: 140px;
   height: 40px;
   width: 40px;
   line-height: 35px;
