@@ -953,7 +953,7 @@ body {
   position: fixed;
   display: none;
   bottom: 15px;
-  right: 130px;
+  right: 80px;
   height: 40px;
   width: 40px;
   line-height: 35px;
@@ -967,15 +967,14 @@ body {
 
 .i-icon {
   vertical-align: middle;
-  display: inherit;
+  display: inline-block;
   padding: 10px;
 }
 
 .i-icon::before {
-  content: url(./images/icscrollup.png);
+  content: url(../images/icscrollup.png);
   width: 20px;
   height: 20px;
-  border: 2px black solid;
 }
 
 /*@import "./components/modalbuy";*/

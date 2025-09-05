@@ -10,10 +10,12 @@
   position: fixed;
   display: none;
   bottom: 15px;
-  right: 130px;
+  right: 80px;
+
   @media screen and (min-width: 768px) {
     right: 120px;
   }
+
   height: 40px;
   width: 40px;
   line-height: 35px;
@@ -22,7 +24,7 @@
 
 .i-icon {
   vertical-align: middle;
-  display: inherit;
+  display: inline-block;
   padding: 10px;
 }
 
@@ -30,5 +32,4 @@
   content: url(../images/icscrollup.png);
   width: 20px;
   height: 20px;
-  border: 2px black solid;
 }
