@@ -556,6 +556,8 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 12px;
+  margin-bottom: 5px;
 }
 .works__desc {
   padding: 16px;
@@ -943,8 +945,9 @@ body {
 @import "./layout/reviews";
 @import "./layout/feedback";*/
 #scrollup.mgray {
-  background: var(--yellow-color);
-  border-radius: 0;
+  background: var(--yellou-color);
+  opacity: 0.7;
+  border-radius: 4px;
   color: var(--white-color);
 }
 
@@ -1244,8 +1247,8 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 15px;
-  border: 2px solid var(--cntnt-color);
-  background-color: var(--bg-color);
+  border: 2px solid var(--name-color);
+  background-color: var(--abttl-color);
   cursor: pointer;
   opacity: 0.6;
 }
