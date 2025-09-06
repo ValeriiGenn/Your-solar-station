@@ -602,7 +602,7 @@ body {
 .contacts {
   width: 100%;
   height: 100%;
-  padding-top: 85px;
+  padding-top: 5px;
   padding-bottom: 113px;
   background-image: url(../images/mob/sunflowers1.jpg);
   background-repeat: no-repeat;
@@ -804,6 +804,7 @@ body {
 }
 .contacts__contact {
   color: var(--abtxt-color);
+  padding-bottom: 90px;
 }
 .contacts__contact--link {
   margin-top: 25px;
@@ -827,13 +828,9 @@ body {
     line-height: 183%;
   }
 }
-.contacts__filter {
-  margin-top: 54px;
-}
 @media screen and (min-width: 768px) {
   .contacts__filter {
     display: flex;
-    margin-top: 81px;
     justify-content: center;
     align-items: center;
   }
@@ -864,13 +861,13 @@ body {
   align-items: center;
   text-align: center;
   color: var(--white-color);
-  background-color: var(--bgbtn-color);
+  background-color: var(--blue-color);
   border: none;
 }
 .contacts__btn--locicon {
-  margin-left: 11px;
+  margin-left: 10px;
   display: inline-block;
-  width: 7px;
+  width: 10px;
   height: 10px;
   margin-bottom: -1px;
 }
@@ -938,6 +935,7 @@ body {
 }
 .equipment__text-span {
   font-style: italic;
+  color: var(--blue-color);
 }
 
 /*@import "./layout/course";
