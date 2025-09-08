@@ -35,6 +35,17 @@ padding-bottom: 20px;}
     font-style: italic;
     color: var(--blue-color);
   }
+  &-span::before{
+    content: " ";
+position: absolute;
+width: 20px;
+height: 20px;
+top: 0;
+left: -25px;
+background-image: url(/images/mob/quote.262aa9217c.svg);
+
+
+  }
   }
   
     
