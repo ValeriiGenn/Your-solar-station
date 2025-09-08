@@ -947,7 +947,8 @@ body {
   height: 20px;
   top: 0;
   left: -25px;
-  background-image: url(/images/mob/quote.262aa9217c.svg);
+  background-image: url(./images/mob/quote1.svg);
+  background-repeat: no-repeat;
 }
 
 /*@import "./layout/course";
