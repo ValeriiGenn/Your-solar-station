@@ -935,12 +935,11 @@ body {
   color: var(--black-color);
 }
 .equipment__text-span {
+  width: 320px;
   font-style: italic;
   color: var(--blue-color);
-  background-color: aquamarine;
-  opacity: 0.5;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  background-color: var(--bgfcs-color);
+  margin: 30px auto;
 }
 .equipment__text-span::before {
   content: " ";
@@ -948,7 +947,7 @@ body {
   width: 20px;
   height: 20px;
   top: inherit;
-  left: 20px;
+  left: 15px;
   background-image: url(../images/mob/bluquote.svg);
   background-repeat: no-repeat;
 }
