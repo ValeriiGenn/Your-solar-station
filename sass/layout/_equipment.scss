@@ -32,12 +32,12 @@ padding-bottom: 20px;}
       background-color: var(--white-color);
       color: var(--black-color);
       &-span{
-         margin-top: 30px;
-    margin-bottom: 30px;
     font-style: italic;
     color: var(--blue-color);
     background-color: aquamarine;
-   
+   opacity: .5;
+   margin-top: 30px;
+   margin-bottom: 30px;
     &::before {
         content: " ";
         position: absolute;

@@ -935,11 +935,12 @@ body {
   color: var(--black-color);
 }
 .equipment__text-span {
-  margin-top: 30px;
-  margin-bottom: 30px;
   font-style: italic;
   color: var(--blue-color);
   background-color: aquamarine;
+  opacity: 0.5;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .equipment__text-span::before {
   content: " ";
