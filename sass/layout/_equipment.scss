@@ -32,10 +32,11 @@ padding-bottom: 20px;}
       background-color: var(--white-color);
       color: var(--black-color);
       &-span{
+         margin-top: 30px;
+    margin-bottom: 30px;
     font-style: italic;
     color: var(--blue-color);
-    margin-top: 30px;
-    margin-bottom: 30px;
+   
     &::before {
         content: " ";
         position: absolute;
@@ -43,8 +44,8 @@ padding-bottom: 20px;}
         height: 20px;
         top: inherit;
         left: 25px;
-        background-image: url(./images/mob/quote1.svg);
-      background-repeat: no-repeat;
+        background-image: url(./images/mob/bluquote.svg);
+          background-repeat: no-repeat;
       border: 2px solid red;
   }
  
