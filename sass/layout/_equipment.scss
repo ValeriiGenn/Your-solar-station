@@ -36,6 +36,7 @@ padding-bottom: 20px;}
     margin-bottom: 30px;
     font-style: italic;
     color: var(--blue-color);
+    background-color: aquamarine;
    
     &::before {
         content: " ";
@@ -43,10 +44,10 @@ padding-bottom: 20px;}
         width: 20px;
         height: 20px;
         top: inherit;
-        left: 25px;
-        background-image: url(./images/mob/bluquote.svg);
+        left: 20px;
+        background-image: url(../images/mob/bluquote.svg);
           background-repeat: no-repeat;
-      border: 2px solid red;
+      
   }
  
 

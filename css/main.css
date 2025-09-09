@@ -429,22 +429,21 @@ body {
   height: 16px;
   top: 190px;
   left: -8px;
-  background: url(../images/mob/quote.svg);
 }
-.hero__call {
+.hero__slogan__call {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
   color: chartreuse;
   margin-bottom: 22px;
 }
-.hero__list {
+.hero__slogan__list {
   position: relative;
   left: 108px;
   bottom: -65px;
   display: flex;
 }
-.hero__link {
+.hero__slogan__link {
   font-size: 12px;
   line-height: 17px;
   padding: 3px 15px;
@@ -452,7 +451,7 @@ body {
   background-color: var(--white-color);
   border-radius: 4px;
 }
-.hero__link--red {
+.hero__slogan__link--red {
   height: 24px;
   color: var(--white-color);
   background-color: var(--red-color);
@@ -549,7 +548,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.works__picture {
+.works__pctre {
   width: 100%;
   display: block;
 }
@@ -937,17 +936,20 @@ body {
   color: var(--black-color);
 }
 .equipment__text-span {
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-style: italic;
   color: var(--blue-color);
+  background-color: aquamarine;
 }
 .equipment__text-span::before {
   content: " ";
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 0;
-  left: -25px;
-  background-image: url(./images/mob/quote1.svg);
+  top: inherit;
+  left: 20px;
+  background-image: url(../images/mob/bluquote.svg);
   background-repeat: no-repeat;
 }
 
