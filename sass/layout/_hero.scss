@@ -3,10 +3,10 @@
   padding-bottom: 101px;
   width: 375px;
   
-  &__tit{ 
-    margin-top: 120px;
-    color: red;
-  }
+  //&__title{ 
+   // margin-top: 120px;
+  //  color: red;
+  //}
   
     &__overlay {
     /*margin: 0 auto;*/
@@ -110,17 +110,8 @@
     line-height: 20px;
     text-align: center;
     color: chartreuse;
-    margin-bottom: 15px;
-   // &::before{
-     // content: "";
-     // position: absolute;
-     // width: 24px;
-     // height: 16px;
-     // top: 190px;
-     // left: -8px;
-     //background: url(../images/mob/quote.svg);}
-  }
-  &__call {
+    margin-bottom: 15px;}
+    &__call {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
