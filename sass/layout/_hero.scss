@@ -111,13 +111,13 @@
     text-align: center;
     color: chartreuse;
     margin-bottom: 15px;
-    &::before{
-      content: "";
-      position: absolute;
-      width: 24px;
-      height: 16px;
-      top: 190px;
-      left: -8px;
+   // &::before{
+     // content: "";
+     // position: absolute;
+     // width: 24px;
+     // height: 16px;
+     // top: 190px;
+     // left: -8px;
      //background: url(../images/mob/quote.svg);}
   }
   &__call {
@@ -131,13 +131,9 @@
     position: relative;
     left: 108px;
     bottom: -65px;
-    display: flex;
-    
-  }
-
-  &__link {
-    
-    font-size: 12px;
+    display: flex;}
+     &__link {
+       font-size: 12px;
     line-height: 17px;
     padding: 3px 15px;
     color: var(--link-color);
@@ -145,10 +141,8 @@
     border-radius: 4px;
   }
   &__link--red {
-    
-    height: 24px;
+        height: 24px;
     color: var(--white-color);
     background-color: var(--red-color);
   }
-}
 }
