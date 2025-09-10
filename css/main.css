@@ -323,10 +323,6 @@ body {
   padding-bottom: 101px;
   width: 375px;
 }
-.hero__tit {
-  margin-top: 120px;
-  color: red;
-}
 .hero__overlay {
   /*margin: 0 auto;*/
   background-image: url(../images/mob/panelhoum.png);
@@ -421,28 +417,20 @@ body {
   color: chartreuse;
   margin-bottom: 15px;
 }
-.hero__slogan::before {
-  content: "";
-  position: absolute;
-  width: 24px;
-  height: 16px;
-  top: 190px;
-  left: -8px;
-}
-.hero__slogan__call {
+.hero__call {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
   color: chartreuse;
   margin-bottom: 22px;
 }
-.hero__slogan__list {
+.hero__list {
   position: relative;
   left: 108px;
   bottom: -65px;
   display: flex;
 }
-.hero__slogan__link {
+.hero__link {
   font-size: 12px;
   line-height: 17px;
   padding: 3px 15px;
@@ -450,7 +438,7 @@ body {
   background-color: var(--white-color);
   border-radius: 4px;
 }
-.hero__slogan__link--red {
+.hero__link--red {
   height: 24px;
   color: var(--white-color);
   background-color: var(--red-color);
@@ -939,7 +927,7 @@ body {
   font-style: italic;
   color: var(--blue-color);
   background-color: var(--bgfcs-color);
-  margin: 30px auto;
+  margin: 10px auto;
 }
 .equipment__text-span::before {
   content: " ";
