@@ -501,7 +501,7 @@ body {
 
 .works {
   padding-bottom: 82px;
-  width: 375px;
+  min-width: 375px;
   /* Медіазапити для адаптивності */
 }
 .works__container {
