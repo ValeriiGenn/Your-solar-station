@@ -619,7 +619,7 @@ body {
   align-items: center;
   justify-content: center;
   letter-spacing: 0.04em;
-  color: var(--white-color);
+  color: var(--shadtitle-color);
   margin: auto;
 }
 @media screen and (min-width: 768px) {
@@ -638,7 +638,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 220px;
-  background-color: var(--white-color);
+  background-color: var(--h1-color);
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
 }
@@ -679,7 +679,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--white-color);
+  color: var(--shadtitle-color);
 }
 .contacts__city--name {
   margin-bottom: 10px;
@@ -690,7 +690,7 @@ body {
   font-size: 16px;
   line-height: 186%;
   letter-spacing: 0.04em;
-  color: var(--white-color);
+  color: var(--shadtitle-color);
 }
 @media screen and (min-width: 768px) {
   .contacts__city--name {
@@ -713,7 +713,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  color: var(--white-color);
+  color: var(--shadtitle-color);
 }
 @media screen and (min-width: 768px) {
   .contacts__city--description {
@@ -735,7 +735,7 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 25px;
-  color: var(--white-color);
+  color: var(--shadtitle-color);
 }
 @media screen and (min-width: 768px) {
   .contacts__timetable {
@@ -763,7 +763,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
-  color: var(--white-color);
+  color: var(--shadtitle-color);
 }
 @media screen and (min-width: 768px) {
   .contacts__timetable--work-day {
@@ -779,7 +779,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
-  color: var(--white-color);
+  color: var(--shadtitle-color);
 }
 @media screen and (min-width: 768px) {
   .contacts__timetable--work-time {
@@ -792,7 +792,7 @@ body {
   }
 }
 .contacts__contact {
-  color: var(--abtxt-color);
+  color: var(--shadtitle-color);
   padding-bottom: 90px;
 }
 .contacts__contact--link {
@@ -803,7 +803,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  color: var(--white-color);
+  color: var(--shadtitle-color);
 }
 @media screen and (min-width: 768px) {
   .contacts__contact--link {
