@@ -891,6 +891,7 @@ body {
   padding-top: 63px;
   padding-bottom: 82px;
   width: 375px;
+  background-color: var(--h1-color);
   /*&__image{
     position: absolute;
     left: 25px;}*/
