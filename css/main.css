@@ -502,6 +502,7 @@ body {
 .works {
   padding-bottom: 82px;
   min-width: 375px;
+  background: linear-gradient(var(--yellou-color), var(--bgcon-color));
   /* Медіазапити для адаптивності */
 }
 .works__container {
