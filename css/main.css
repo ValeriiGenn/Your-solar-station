@@ -1008,8 +1008,8 @@ body {
 /*контент */
 .kodal {
   position: absolute;
-  top: 65%;
-  left: 50%;
+  top: 55%;
+  left: 43%;
   transform: translate(-50%, -50%) scale(1);
   width: 350px;
   height: 481px;
@@ -1056,7 +1056,7 @@ body {
   font-size: 14px;
   line-height: 1.15;
   font-weight: bold;
-  color: var(--white-color);
+  color: var(--shadtitle-color);
   opacity: 0.6;
   text-align: center;
   margin-top: 15px;
