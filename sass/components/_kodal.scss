@@ -48,8 +48,8 @@
         left: 10px;
         top: 10px;
         opacity: 0.5;
-        background-color: var(--cntnt-color);
-        border: none;
+        //background-color: var(--cntnt-color);
+        border: 1px solid var(--link-color);
     }
 
     &__contacts {
@@ -59,7 +59,7 @@
     &__leave {
         font-size: 20px;
         line-height: 1.15;
-        color: var(--white-color);
+        color: var(--shadtitle-color);
         text-align: center;
         margin-bottom: 30px;
     }

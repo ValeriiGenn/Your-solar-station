@@ -2,11 +2,13 @@
     position: fixed;
     z-index: 5;
     bottom: 50px;
-    left: 50px;
+    left: 20px;
+
     @media screen and (min-width: 1200px) {
         bottom: 100px;
         left: 250px;
     }
+
     &__phone {
         animation: animate1 400ms infinite 10000ms;
         animation-name: animate1;
@@ -32,30 +34,39 @@
     0% {
         transform: rotate(0deg);
     }
+
     10% {
         transform: rotate(-15deg);
     }
+
     20% {
         transform: rotate(0deg);
     }
+
     30% {
         transform: rotate(15deg);
     }
+
     40% {
         transform: rotate(0deg);
     }
+
     50% {
         transform: rotate(0deg);
     }
+
     60% {
         transform: rotate(-15deg);
     }
+
     70% {
         transform: rotate(0deg);
     }
+
     80% {
         transform: rotate(15deg);
     }
+
     100% {
         transform: rotate(0deg);
     }
