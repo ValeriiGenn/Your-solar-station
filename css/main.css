@@ -911,6 +911,15 @@ body {
   text-align: center;
   padding: 0;
 }
+.equipment__container::before {
+  animation: animate5 30000ms infinite 1000ms;
+  content: "";
+  display: block;
+  width: 90px;
+  height: 64px;
+  position: absolute;
+  background-image: url(../images/mob/suncloudnbg.png);
+}
 .equipment__img {
   margin: auto;
   padding-top: 20px;
@@ -953,6 +962,23 @@ body {
   background-repeat: no-repeat;
 }
 
+@keyframes animate5 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(250px, 0px);
+  }
+  50% {
+    transform: translate(250px, 250px);
+  }
+  75% {
+    transform: translate(0, 250px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
 /*@import "./layout/course";
 @import "./layout/gallery";
 @import "./layout/reviews";
