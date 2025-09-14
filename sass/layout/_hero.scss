@@ -2,59 +2,66 @@
   padding-top: 46px;
   padding-bottom: 101px;
   width: 375px;
-  
+
   //&__title{ 
-   // margin-top: 120px;
+  // margin-top: 120px;
   //  color: red;
   //}
-  
-    &__overlay {
+
+  &__overlay {
     /*margin: 0 auto;*/
-   
-  background-image: url(../images/mob/panelhoum.png);
-      
+
+    background-image: url(../images/mob/panelhoum.png);
+
     background-position: 0px 0px;
     background-repeat: no-repeat;
-    
-       }
-   &__overlay-cont{
+
+  }
+
+  &__overlay-cont {
     position: absolute;
-        //content: "";
-        width: 75px;
-        height: 75px;
-        border-radius: 75px 75px 95px 130px;
-        top: 140px;
-        left: 10px;
-        background-image: url(../images/mob/sun1.jpg);
-        background-repeat: no-repeat;
-        opacity: 0.8;
-       animation: animateX25 30000ms infinite 5000ms;
-        @keyframes animateX25 {
-                              0% {
-                                transform: translate (0, 0);
-                              }
-              
-                              15% {
-                                transform: translate(125px, -50px);
-                              }
-              
-                              30% {
-                                transform: translate(200px,-100px);
-                              }
-              
-                              45% {
-                                transform: translate(250px,-125px);
-                              }
-                              60% {
-                               transform: translate(280px, -100px);
-                                                            }
-                               75% {
-                              transform: translate(290px, -50px);                             }
-              
-                              100% {
-                                transform: translate(0, 0);           } 
-              }} 
-                              
+    //content: "";
+    width: 75px;
+    height: 75px;
+    //border-radius: 75px 75px 95px 130px;
+    top: 140px;
+    left: 10px;
+    background-image: url(../images/mob/sunnbg.png);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    animation: animateX25 30000ms infinite 5000ms;
+
+    @keyframes animateX25 {
+      0% {
+        transform: translate (0, 0);
+      }
+
+      15% {
+        transform: translate(125px, -50px);
+      }
+
+      30% {
+        transform: translate(200px, -100px);
+      }
+
+      45% {
+        transform: translate(250px, -125px);
+      }
+
+      60% {
+        transform: translate(280px, -100px);
+      }
+
+      75% {
+        transform: translate(290px, -50px);
+      }
+
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+  }
+
   &__container {
     position: relative;
     text-align: center;
@@ -62,8 +69,8 @@
     //margin-right: auto;
     width: 306px;
     margin-left: 33px;
-   
-        /* &::after {
+
+    /* &::after {
       position: absolute;
       content: "";
       width: 55px;
@@ -84,6 +91,7 @@
       background-repeat: no-repeat;
     }*/
   }
+
   &__title {
     font-weight: bold;
     font-size: 30px;
@@ -94,8 +102,8 @@
     -webkit-text-fill-color: transparent;
     text-shadow: 0 -16px 0 var(--shadtitle-color);
     margin-bottom: 13px;
-    
-        &--end {
+
+    &--end {
       font-weight: 600;
       font-size: 16px;
       line-height: 116%;
@@ -104,35 +112,42 @@
       margin-bottom: 39px;
     }
   }
+
   &__slogan {
     font-family: "Arima", system-ui;
     font-size: 20px;
     line-height: 20px;
     text-align: center;
     color: chartreuse;
-    margin-bottom: 15px;}
-    &__call {
+    margin-bottom: 15px;
+  }
+
+  &__call {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     color: chartreuse;
     margin-bottom: 22px;
   }
+
   &__list {
     position: relative;
     left: 108px;
     bottom: -65px;
-    display: flex;}
-     &__link {
-       font-size: 12px;
+    display: flex;
+  }
+
+  &__link {
+    font-size: 12px;
     line-height: 17px;
     padding: 3px 15px;
     color: var(--link-color);
     background-color: var(--white-color);
     border-radius: 4px;
   }
+
   &__link--red {
-        height: 24px;
+    height: 24px;
     color: var(--white-color);
     background-color: var(--red-color);
   }

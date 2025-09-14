@@ -345,10 +345,9 @@ body {
   position: absolute;
   width: 75px;
   height: 75px;
-  border-radius: 75px 75px 95px 130px;
   top: 140px;
   left: 10px;
-  background-image: url(../images/mob/sun1.jpg);
+  background-image: url(../images/mob/sunnbg.png);
   background-repeat: no-repeat;
   opacity: 0.8;
   animation: animateX25 30000ms infinite 5000ms;
