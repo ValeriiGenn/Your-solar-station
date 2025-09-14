@@ -10,12 +10,12 @@
     }
 
     &__phone {
-        animation: animate1 400ms infinite 10000ms;
+        animation: animate1 450ms infinite 10000ms;
         animation-name: animate1;
-        animation-duration: 190ms;
+        //animation-duration: 190ms;
         animation-timing-function: linear;
         animation-delay: 100ms;
-        animation-iteration-count: 2;
+        // animation-iteration-count: 2;
         animation-direction: normal;
         display: flex;
         justify-content: center;
