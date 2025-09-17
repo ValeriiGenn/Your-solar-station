@@ -31,16 +31,7 @@
           <a href="./index.html" class="header__nav--logo">
           <img src="./images/mob/perun.jpg" alt="logo"/>
         </a></div>
-        <button
-            type="button"
-            class="header__btn mobile-menu__button js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu">
-            <svg width="26" height="10">
-              <use href="./images/icons/Unionm.svg"></use>
-            </svg>
-          </button>
-        <nav class="header__nav">
+                <nav class="header__nav">
           <ul class="header__nav--list">
              <a href="#hero" class="header__nav--link">Твоя сонячна станція</a>
             </li>
@@ -54,7 +45,23 @@
               <a href="#contacts" class="header__nav--link">Contact</a>
             </li>
           </ul>
-          
+          <button
+            type="button"
+            class="header__btn mobile-menu__button js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="20"
+              height="20"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="mobile-menu__button--open-icon"
+                href="./images/icons/Unionm.svg"
+              ></use>
+            </svg>
+          </button>
             </nav>
       </div>
     </header>
